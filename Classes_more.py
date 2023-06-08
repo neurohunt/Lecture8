@@ -18,3 +18,6 @@ account = BankAccount()
 account.deposit(100)
 account.withdraw(30)
 print(account.check_balance())  # prints: 70
+account.withdraw(30)
+account.withdraw(30)
+account.withdraw(30)
