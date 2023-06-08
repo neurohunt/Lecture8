@@ -51,10 +51,10 @@ print(c2.circumference())"""
         self.age = age
 
     def greet(self):
-        print(f"Hello, my name is {self.name} and I'm {self.age} years old.")"""
+        print(f"Hello, my name is {self.name} and I'm {self.age} years old.")
 
 
-"""class Student(Person):
+class Student(Person):
     def __init__(self, name, age, major):
         super().__init__(name, age)
         self.major = major
@@ -66,6 +66,9 @@ print(c2.circumference())"""
         print(f"Hello, my name is {self.name} and I'm {self.age} years old and I am a student of {self.major}.")
 """
 
+
+
+
 """class Teacher(Person):
     def __init__(self, name, age, subject):
         super().__init__(name, age)
@@ -73,6 +76,17 @@ print(c2.circumference())"""
 
     def teach(self):
         print(f"I'm teaching {self.subject}.")"""
+
+"""def do_something(person):
+    person.greet()
+    if isinstance(person, Student):
+        person.study()
+    elif isinstance(person, Teacher):
+        person.teach()"""
+
+"""p1 = Person("Alice", 30)
+print(p1.name)
+print(p1.age)"""
 
 """def do_something(person):
     person.greet()
